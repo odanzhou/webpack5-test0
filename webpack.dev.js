@@ -31,8 +31,8 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(ts|tsx)$/i,
-        loader: "ts-loader",
+        test: /\.(j|t)s(x)?$/,
+        loader: 'babel-loader',
         exclude: ["/node_modules/"],
       },
       {
